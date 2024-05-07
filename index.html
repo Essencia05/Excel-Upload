@@ -20,9 +20,9 @@
    <h3>Upload CSV/Excel File</h3>
         <div class="mb-3">
             <label for="formFile" class="form-label"></label>
-            <input class="form-control" type="file" id="formFile" accept=".csv,.xls,.xlsx"><!--Include accept to restrict others except those ones-->
+            <input class="form-control" type="file" id="formFile" accept=".csv,.xls,.xlsx" onchange="handlingFileUpload()"><!--restricting your upload to be csv/excel files-->
              <br> <!--to create space between the input box like to jump a line -->
-                <button class="bg-primary border-0" onclick="load()">Load CSV/Excel File</button><!--create your on click event to load when -->
+                <button class="bg-primary border-0">Load CSV/Excel File</button><!--create your on click event to load when -->
         </div>
     <div class="fileInputData"><!--contect of the uploaded file will go in here-->
 

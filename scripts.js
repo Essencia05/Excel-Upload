@@ -1,5 +1,14 @@
 const file = document.querySelector("#formFile");
 
 
+function handlingFileUpload(params) {
+    
+}
 
-console.log(file.value);
+function name(params) {
+    
+}
+
+function name(params) {
+    
+}
