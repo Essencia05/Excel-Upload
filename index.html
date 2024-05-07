@@ -10,21 +10,31 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Excel Upload</title>
+    <title>CSV/Excel file Upload</title>
 </head>
 <body>
- <div class="container-fluid">
+ <div class="container-fluid mt-5">
 
-   <h1>Excel Upload</h1>
+   <h1>Upload Files</h1>
    <br>
-   <h3>Upload file</h3>
-   <div class="input-group">
-    <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
-    <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04" onchange="#">Upload</button>
-  </div>
- 
+   <h3>Upload CSV/Excel File</h3>
+        <div class="mb-3">
+            <label for="formFile" class="form-label"></label>
+            <input class="form-control" type="file" id="formFile" accept=".csv,.xls,.xlsx"><!--Include accept to restrict others except those ones-->
+             <br> <!--to create space between the input box like to jump a line -->
+                <button class="bg-primary border-0" onclick="load()">Load CSV/Excel File</button><!--create your on click event to load when -->
+        </div>
+    <div class="fileInputData"><!--contect of the uploaded file will go in here-->
+
+
+     </div>
+ <table>
+
+
+ </table>
  </div>
-  
+ 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/papaparse/5.3.0/papaparse.min.js"></script><!--for my parapas-->
  <script lang="javascript" type="text/javaScript" src="./scripts.js"></script>
 </body>
 </html>
