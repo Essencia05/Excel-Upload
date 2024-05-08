@@ -1,14 +1,16 @@
 const file = document.querySelector("#formFile");
 
+//sheetExcel and paraCSV
+document.querySelector("#formInput").a
 
 function handlingFileUpload(params) {
     
 }
 
-function name(params) {
+function paraPasCSV(params) {
     
 }
 
-function name(params) {
+function sheetExcel(params) {
     
 }
