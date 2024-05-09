@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container-fluid bg-light mt-5 border">
-        <h1 class="mb-4"><strong>CSV/Excel file Upload</strong> </h1>
-         <input type="file" id="fileInput" class="border"> 
+    <div class="container-fluid bg-light border">
+      <header><h1><img src="/static/excel.png" alt="CSV picture" width="100px"><img src="/static/csv-file.png" alt="" width="100px"> CSV/Excel file Upload</h1></header>
+        <h4 class="mt-4 mx-auto"><strong>Upload CSV/Excel Files</strong> </h1>
+         <input type="file" id="fileInput" class="border "> 
                 <br>
                 <br>
                 <button id="submitB" class="btn btn-success"> Load CSV/Excel file on Table </button>
@@ -19,7 +20,7 @@
                 <br>
                 <!--<input type="text" class="md-6 border-0 w-50" placeholder="Search...">-->
                          <br>
-                             <div id="tableArea" class="bg-info border mt-4">
+                             <div id="tableArea" class="bg-light border mt-4">
                               <!--No content inside it will be loaded from the javascript file-->
                               <table> <!--the content in the created table element will go here-->
                                 <thead></thead> <!--the content in the created tableHead element will go here-->

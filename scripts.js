@@ -7,7 +7,7 @@ document.getElementById('submitB').addEventListener('click', function() {
   const file = fileInput.files[0];
   
   if (!file) {          //start of if statement for when the user submited without selecting anyfile
-    alert('Please select a file before clicking the button.'); /// this alert should be displayed when they don't select any file
+    alert('Please select a file first before loading it on the button.'); /// this alert should be displayed when they don't select any file
     
   }
   
