@@ -39,7 +39,7 @@ function parseCSV(content) {
 }
     
 function parseExcel(content) {      ///displaying the content of the Excel file
-  const readContent = XLSX.read(content, { type: 'binary' });  
+  const readContent = XLSX.read(content, { type: 'binary' });  //read content gto upload the things as 0and1
   const sheetName = readContent.SheetNames[0];
   const sheet = readContent.Sheets[sheetName];
   const data = XLSX.utils.sheet_to_json(sheet, { header: 1 });
